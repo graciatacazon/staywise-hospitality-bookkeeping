@@ -1,39 +1,66 @@
 # StayWise Hospitality LLC
-## Short-Term Rental Bookkeeping Portfolio
+## Short-Term Rental Bookkeeping Portfolio Project
 
-**Practice Period:** January 1–December 31, 2025  
-**Business Type:** Short-term rental operator and property manager  
-**Owner:** Rowan Vance
+> ⚠️ Fictional practice project with simulated data. Not actual client work.
 
-### Project Overview
+**Practice Period:** January 1 – December 31, 2025
+**Business:** Short-term rental operator and property manager (4 leased units, 6 managed units)
+**Platforms used:** QuickBooks Online and Xero
+**Booking channels:** Airbnb, Booking.com, Vrbo, Stripe
 
-This project demonstrates a simulated bookkeeping workflow for StayWise Hospitality LLC, a short-term rental business operating four leased units and managing six additional properties for third-party owners.
+---
 
-The bookkeeping records are maintained using QuickBooks Online, with a separate implementation in Xero to demonstrate the bookkeeping workflow in both platforms.
+## The Challenge
+STR payouts arrive bundled and net of fees, so they don't match bookings or bank deposits.
+Management fees, owner payouts, and separate leased vs. managed properties add more complexity.
 
-### Project Objectives
+## What I Did
+- Set up the chart of accounts and property tracking
+- Built an Excel payout summary consolidating all four channels
+- Recorded gross revenue, platform fees, and taxes separately
+- Reconciled bank accounts monthly
+- Calculated management fees (20% of net rent) and owner payouts
+- Produced monthly P&L by property and year-end statements
 
-- Record and categorize business transactions.
-- Maintain accurate financial records for leased and owner-managed properties.
-- Perform bank reconciliations.
-- Track property management income and amounts payable to property owners.
-- Prepare monthly financial reports.
-- Complete year-end financial reporting.
+## Key Results
+- ✅ 12 months reconciled
+- ✅ 10 properties tracked (4 leased, 6 managed)
+- ✅ 4 payment channels consolidated
+- ✅ Monthly and year-end reports prepared
 
-### Accounting Platforms
+---
 
-- QuickBooks Online
-- Xero
+## Workflow Samples
 
-### Project Deliverables
+### 1. Payout Summary (Excel)
+![Payout summary](02-payout-summary/02-payout-summary-excel.png)
 
-- Company setup and chart of accounts
-- Transaction recording and categorization
-- Bank reconciliations
-- Monthly financial reports
-- Year-end financial statements
-- Screenshots documenting the bookkeeping workflow
+### 2. Bank Reconciliation (QuickBooks Online)
+![QBO reconciliation](03-reconciliations/03-qbo-bank-reconciliation-jan.png)
 
-### Disclaimer
+### 3. Profit & Loss by Property
+![P&L by property](04-monthly-reports/04-qbo-profit-loss-by-property.png)
 
-This is a fictional practice project created for learning and portfolio demonstration. All transactions and supporting documents are simulated and do not represent actual client work.
+### 4. Owner Statement (Sample)
+![Owner statement](05-owner-statements/06-owner-statement-sample.png)
+
+### 5. Xero Implementation
+![Xero reconciliation](03-reconciliations/05-xero-bank-reconciliation-jan.png)
+
+---
+
+## Repository Contents
+| Folder | Contents |
+|---|---|
+| `01-setup` | Chart of accounts and property setup |
+| `02-payout-summary` | Excel payout consolidation |
+| `03-reconciliations` | Monthly bank reconciliations |
+| `04-monthly-reports` | P&L and balance sheets |
+| `05-owner-statements` | Owner payout statements |
+| `06-year-end` | Year-end financial statements |
+
+## Contact
+**Gracia Ann Tacazon**, CPA | Short-Term Rental Bookkeeper
+- LinkedIn: https://www.linkedin.com/in/gracia-ann-tacazoncpa/
+- Upwork: https://www.upwork.com/freelancers/~01aa0df6494ed81173
+- Email: gracia.ann.tacazon@gmail.com
